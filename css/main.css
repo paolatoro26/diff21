@@ -1,0 +1,14 @@
+body{
+	background: url(../img/operacion.jpg) ;
+	background-size: contain;
+}
+.container{
+
+	font-family: Garamond;
+	margin-top:15%; 
+	background: white
+}
+#salida{
+	font-size: 36px;
+	
+}
