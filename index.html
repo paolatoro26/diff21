@@ -13,15 +13,19 @@
 	<section class="principal">
 		<div class="container text-center">
 			<h1>Cual es la diferencia ?</h1>
+			<h3>Insrucciones:</h3>
+			<h4>Tenemos el numero <span>21</span> y nuestro numero <span>n</span></h4>
+			<p class="instruccion"><b>Si n es < a 21 resultado = 21 - n  <br> pero si, <br> n > 21 resultado 
+				= (21 - n) x 2</b></p>
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="ingreso">
-						<label for="n">Por favor, ingrese un nùmero</label>
+						<label for="n">Por favor, ingrese un nùmero (n) </label>
 						<input type="text" id="numero" placeholder="numero">
 					</div>
 					<div class="resultado text-center">
 						<h2>Resultado</h2>
-						<p class="text-center"><button onclick="calcular()">Calcular</button></p>
+						<p class="text-center"><button class="btn btn-primary" onclick="calcular()">Calcular</button></p>
 						<p id="salida"></p>
 					</div>
 				</div>

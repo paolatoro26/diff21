@@ -1,14 +1,33 @@
 body{
 	background: url(../img/operacion.jpg) ;
 	background-size: contain;
+	color: white;
+	
 }
 .container{
 
-	font-family: Garamond;
+	font-family: Arial;
 	margin-top:15%; 
-	background: white
+	background: rgba(44,5,64,.9);
 }
 #salida{
 	font-size: 36px;
 	
+}
+.instruccion
+{
+	margin: 0 auto;
+	background: black;
+	width: 35%
+}
+span
+{
+	background: red;
+	color: white;
+	font-size: 20px;
+	padding: 10px
+}
+input
+{
+	color: black
 }
